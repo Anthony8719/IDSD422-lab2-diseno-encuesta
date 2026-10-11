@@ -1,0 +1,5 @@
+# Sistema
+.DS_Store
+
+# Datos recolectados (no subir respuestas reales sin anonimizar)
+plantillas/respuestas_reales*.csv
