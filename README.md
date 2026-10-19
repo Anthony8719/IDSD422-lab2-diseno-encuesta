@@ -10,6 +10,25 @@ RetailAndina va a lanzar un programa de fidelización y la gerencia quiere saber
 
 **Tu rol:** analista del equipo de BI. Completas la plantilla de diseño con tu equipo y la presentas como **borrador del hito 1 del proyecto**. Después, en la semana del feriado (2 y 3 de noviembre no hay clases) aplicas la encuesta a una muestra real pequeña y, si quieres más datos, la completas con valores simulados declarados. El hito final se entrega el martes 10 de noviembre.
 
+## Enfoque del equipo (Opción B)
+
+Todos los equipos diseñan sobre **RetailAndina**, pero cada equipo elige un **enfoque o segmento distinto**; el docente lo aprueba en clase y **no puede haber dos equipos con el mismo enfoque**. El mismo diseño es el **Hito 1** del proyecto: el lab 2 califica el borrador (20/10) y el Hito 1 el final con datos (10/11).
+
+**Ejemplos de enfoques** (elige uno y escríbelo en la cabecera de la plantilla):
+
+- Programa de fidelización: satisfacción y beneficios valorados.
+- Precios: percepción frente a la competencia.
+- Atención en caja: rapidez y amabilidad.
+- Variedad y stock: satisfacción y disponibilidad.
+- Compra en línea / app: experiencia.
+- Limpieza y comodidad: ambiente de la tienda.
+- Jóvenes (18–29): satisfacción y expectativas.
+- Familias: hábitos de compra semanal.
+- Frecuentes vs. ocasionales: satisfacción y lealtad.
+- Por ciudad: Quito, Guayaquil y Cuenca.
+
+Si hay más equipos que enfoques, combina un enfoque con un segmento (por ejemplo, "precios en clientes jóvenes").
+
 ## Objetivos de la práctica
 
 **Objetivo general:** diseñar la encuesta de satisfacción del programa de fidelización de RetailAndina, lista para aplicarse: objetivo medible, población y muestra alcanzables, método de muestreo justificado, cuestionario de 5 a 10 preguntas y plan de manejo de sesgos y confidencialidad, con la verificación de los datos implementada en Python o R.

@@ -27,3 +27,4 @@
 1. Repositorio (fork) con `plantilla-encuesta.md` completada, el **PDF del documento en `informes/`** (con el enlace del fork en la carátula) y la historia de commits coherente (una sección por commit es ideal).
 2. **Borrador:** martes 20/10 · **Hito 1 final (con datos):** martes 10/11.
 3. **Entrega:** el **PDF + el enlace de tu fork**, en el aula virtual. No se acepta ZIP.
+4. **Enfoque:** aprobado por el docente y **distinto al de los demás equipos**; el mismo diseño se usa para el Hito 1.
