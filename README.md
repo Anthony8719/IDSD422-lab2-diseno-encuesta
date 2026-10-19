@@ -61,7 +61,7 @@ Rscript scripts/verificacion_encuesta.R
 3. Haz un **commit por cada sección completada**, con mensajes claros; la historia del repositorio se revisa.
 4. Pilotea el cuestionario con dos compañeros (hay bonus) y ajusta lo que haga falta.
 5. En la semana del feriado aplica la encuesta y registra las respuestas (ver abajo).
-6. **Entrega el link de tu fork**: el borrador al final de la sesión del martes 20/10; el hito final con datos, el martes 10/11.
+6. **Entrega el PDF de la plantilla completada y el enlace de tu fork**: exporta `plantilla-encuesta.md` a PDF con el enlace del fork en la carátula y guarda el PDF en `informes/` del fork. Borrador: al final de la sesión del martes 20/10; hito final con datos: martes 10/11.
 
 ## Recolección de datos (semana del feriado)
 
@@ -79,8 +79,8 @@ Las filas del CSV de plantilla son solo ejemplos de formato (incluida una simula
 
 ## Entregables
 
-- **Borrador (práctica, martes 20 de octubre, al final de la sesión).** `plantilla-encuesta.md` completa, con los tres componentes de código escritos, en tu fork.
-- **Hito 1 final (martes 10 de noviembre).** Plantilla refinada, CSV anonimizado con la columna `origen` marcada y la salida interpretada del script de verificación.
+- **Borrador (práctica, martes 20 de octubre, al final de la sesión).** `plantilla-encuesta.md` completa, con los tres componentes de código escritos, y el **PDF en `informes/`** del fork.
+- **Hito 1 final (martes 10 de noviembre).** Plantilla refinada, CSV anonimizado con la columna `origen` marcada, la salida interpretada del script de verificación y el **PDF actualizado en `informes/`**; entrega el PDF + el enlace del fork.
 
 La evaluación está detallada en `EVALUACION.md` (rúbrica de 100 puntos; la nota es puntos ÷ 100 × 20).
 

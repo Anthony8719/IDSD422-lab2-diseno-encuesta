@@ -1,8 +1,11 @@
 # Plantilla de diseño — Encuesta de satisfacción (hito 1)
 
 **Equipo:** ___ · **Integrantes:** ___ · **Fecha:** 20/10/2026
+**Repositorio (fork):** github.com/[usuario]/IDSD422-lab2-diseno-encuesta
 
 Completa cada sección. Usa commits por sección; la historia del repositorio se revisa.
+
+> **Formato del entregable:** exporta esta plantilla completada a PDF, con el enlace de tu fork en la carátula, y guarda el PDF en `informes/` del fork. Entrega el PDF y el enlace del fork en el aula virtual.
 
 ## 1. Objetivo de la encuesta
 
