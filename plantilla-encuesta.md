@@ -6,9 +6,7 @@
 
 **Enfoque del equipo (aprobado en clase):** Enfoque Promocional
 
-Completa cada sección. Usa commits por sección; la historia del repositorio se revisa.
 
-> **Formato del entregable:** exporta esta plantilla completada a PDF, con el enlace de tu fork en la carátula, y guarda el PDF en `informes/` del fork. Entrega el PDF y el enlace del fork en el aula virtual.
 
 ## 1. Objetivo de la encuesta
 
@@ -30,12 +28,44 @@ Los resultados permitirán explorar la relación entre las promociones y las com
 
 ## 3. Método de muestreo
 
-*Elige aleatorio simple, estratificado o conveniencia y justifica. Meta: 15–30 respuestas reales (3–6 por integrante); opcional: relleno simulado hasta 60–100 filas marcadas con la columna `origen`.*
+- **Método:** *Se plantea prevenir la utilización de un muestreo no probabilístico por conveniencia, es decir, se tomarán como participantes aquellos individuos que cumplan con los criterios de la población objetivo y que por tanto puedan ser abordados por los miembros del equipo. Este método será el que permita obtener información sobre la percepción y las promociones comerciales teniendo en cuenta la frecuencia de realizar compras no planificadas y las limitaciones de tiempo y de recursos que poseen el laboratorio.*
 
-- Método:
-- Tamaño y justificación:
-- Cómo se seleccionarán los participantes:
-- **Equivalente en código (Python o R):** la línea que implementa tu método sobre un CSV de clientes (aleatorio simple, estratificado o conveniencia) con el resultado de una corrida con semilla, y una frase sobre por qué tu método (y no la conveniencia) justifica el hito.
+- **Tamaño y justificación:** *Se establece como objetivo obtener 20 respuestas a partir de personas que sean consumidores de 18 años o más, residentes en Quito, que realicen compras en un supermercado al menos una vez al mes. Esta cantidad está dentro de las 15-30 respuestas que se solicitan para la práctica y permitirá llevar a cabo un análisis descriptivo exploratorio de las variables bajo estudio. Debido al tamaño y a la forma no probabilística de la muestra, el resultado no puede ser generalizable a toda la población de consumidores de Quito.*
+
+- **Cómo se seleccionarán los participantes:** *Las personas que tengamos en el equipo de investigación contactarán a familiares, amigos/compañeros de trabajo, conocidos, etcétera (cualquier persona en el cuerpo o grupo de individuos que se considere que cumplen las condiciones citadas) a través de medios digitales o mediante contacto personal. Antes de aplicar la encuesta se comprobará que los participantes cumplen con las condiciones sujetas a la edad/hábitos de residencia y la frecuencia mínima de compra, conforme se había comentado en el apartado 2. La participación será voluntaria y se intentará incluir consumidores con hábitos de compra diferentes para que haya mayor variabilidad en las respuestas. Cada consumidor responderá una única vez.*
+
+- **Equivalente en código (Python o R):** *Se utilizará Python con la biblioteca pandas para filtrar un archivo CSV de posibles participantes según los criterios de inclusión. Posteriormente, se organizará una lista de hasta 20 personas accesibles para el equipo. El uso de una semilla permitirá reproducir el orden generado, pero no convertirá el procedimiento en un muestreo probabilístico, puesto que los participantes provendrán de contactos disponibles y su participación dependerá de su aceptación.*
+
+```bash
+
+
+import pandas as pd
+
+# Archivo de posibles participantes
+df = pd.read_csv("clientes.csv")
+
+# Verificar los criterios de inclusión
+elegibles = df[
+    (df["edad"] >= 18) &
+    (df["ciudad"].str.strip().str.lower() == "quito") &
+    (df["compras_mes"] >= 1)
+]
+
+# Organizar hasta 20 contactos elegibles y accesibles
+# La semilla hace reproducible el orden
+muestra = elegibles.sample(
+    n=min(20, len(elegibles)),
+    random_state=42
+)
+
+print("Participantes elegibles:", len(elegibles))
+print("Contactos seleccionados:", len(muestra))
+print(muestra)
+
+
+```
+
+- **Justificación del método:** *El muestreo por conveniencia se ha elegido en vez del aleatorio simple o el estratificado, en vista que el equipo no disponga de un marco muestral completo de los consumidores de los supermercados de Quito. Es cierto que, dadas las condiciones adecuadas, los métodos probabilísticos posibilitarán llevar a cabo inferencias estadísticas; sin embargo, ello exigiría la elaboración de una lista de la población, además de procedimientos de selección de la misma con probabilidades conocidas. Así pues, dado los propósitos exploratorios del laboratorio, la conveniencia se muestra más útil pues posibilitará captar tendencias preliminares que puedan dar cuenta de las estrategias promocionales de RetailAndina.*
 
 ## 4. Cuestionario (5–10 preguntas)
 
