@@ -70,7 +70,7 @@ print(muestra)
 ## 4. Cuestionario (5–10 preguntas)
 
 
-## 3. Diseño de preguntas de la encuesta
+## Diseño de preguntas para la encuesta
 
 | N.º | Pregunta | Tipo de variable | Dtype esperado en pandas | Opciones / escala |
 |---|---|---|---|---|
