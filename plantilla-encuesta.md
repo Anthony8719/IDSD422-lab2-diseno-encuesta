@@ -86,19 +86,36 @@ print(muestra)
 | 10 | En su compra más reciente, ¿cuánto dinero gastó aproximadamente en productos que no tenía previsto comprar, pero adquirió debido a promociones o descuentos? | Numérica continua | float64 | Valor en USD mayor o igual a 0; 0 si no realizó compras no planificadas; puede omitir si no recuerda |
 
 
+
 ## 5. Análisis de sesgos
 
-*Identifica 2 problemas potenciales de esta encuesta y su mitigación.*
+Se identifican dos posibles sesgos que podrían afectar la calidad y confiabilidad de los resultados de la encuesta.
 
 | Sesgo potencial | Mitigación |
 |---|---|
-| 1. | |
-| 2. | |
+| **1. Sesgo de selección:** Al utilizar un muestreo no probabilístico por conveniencia, los participantes serán principalmente familiares, amigos y conocidos de los integrantes del equipo. Esto puede ocasionar que las respuestas correspondan a consumidores con características o hábitos de compra similares, limitando la diversidad de opiniones y la representatividad de los resultados. | Se procurará incluir personas de diferentes rangos de edad y con distintas frecuencias de compra, siempre que cumplan con los criterios establecidos. Además, se evitará concentrar las encuestas en un solo grupo de conocidos y se reconocerá que los resultados representan únicamente a los participantes encuestados. |
+| **2. Sesgo de respuesta:** Los participantes podrían proporcionar respuestas que consideran socialmente aceptables en lugar de reflejar sus verdaderos hábitos de compra. Por ejemplo, podrían minimizar la cantidad de productos que compran impulsivamente debido a las promociones para demostrar un mayor control sobre sus gastos. | Se utilizarán preguntas claras y neutrales, evitando expresiones que puedan influir en las respuestas. Además, se garantizará el anonimato de los participantes y se explicará que no existen respuestas correctas o incorrectas, con el fin de fomentar respuestas sinceras. |
 
 ## 6. Confidencialidad (RA3)
 
-- Datos personales que se piden y por qué:
-- Plan de anonimización (qué se quita o codifica antes de compartir):
+- **Datos personales que se piden y por qué:**
+
+La encuesta recopilará únicamente la información necesaria para cumplir con los objetivos de la investigación. Se solicitará el rango de edad para analizar posibles diferencias en los hábitos de compra entre grupos etarios. También se verificará que los participantes residan en Quito y realicen compras en supermercados al menos una vez al mes, ya que estos son los criterios establecidos para formar parte de la población objetivo.
+
+Adicionalmente, se recogerá información sobre la frecuencia de compra, la influencia de las promociones, el gasto aproximado en productos no planificados y el nivel de satisfacción. Estos datos permitirán analizar la relación entre las promociones comerciales y las decisiones de compra de los consumidores.
+
+No se solicitarán nombres completos, números de cédula, direcciones domiciliarias, números telefónicos ni correos electrónicos, debido a que esta información no es necesaria para el análisis.
+
+- **Plan de anonimización (qué se quita o codifica antes de compartir):**
+
+Para proteger la privacidad de los participantes, cada respuesta será identificada mediante un código único, por ejemplo, E001, E002 y E003, sin asociarlo con la identidad de la persona encuestada.
+
+La edad se registrará mediante rangos en lugar de valores exactos y la residencia se utilizará únicamente para verificar que el participante viva en Quito. Antes de compartir el archivo CSV, se eliminará cualquier información que permita identificar directamente a una persona, en caso de haberse recopilado durante el contacto inicial.
+
+Los datos se utilizarán exclusivamente con fines académicos y se compartirán únicamente en formato anonimizado. Asimismo, se informará a los participantes sobre el objetivo de la investigación, el carácter voluntario de su participación y el uso que se dará a sus respuestas.
+
+De esta manera, se busca garantizar la confidencialidad de la información recopilada y respetar la privacidad de los participantes durante el desarrollo de la investigación.
+  
 
 ## 7. Verificación con herramientas (Python/R)
 
