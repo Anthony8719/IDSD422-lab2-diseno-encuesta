@@ -1,8 +1,10 @@
 # Plantilla de diseño — Encuesta de satisfacción (hito 1)
 
-**Equipo:** ___ · **Integrantes:** ___ · **Fecha:** 20/10/2026
-**Repositorio (fork):** github.com/[usuario]/IDSD422-lab2-diseno-encuesta
-**Enfoque del equipo (aprobado en clase):** ___
+**Equipo:** 2 · **Integrantes:** Andrea Cumbal, Paula Granda, Anthony Jaramillo, Paola Pacheco · **Fecha:** 26/10/2026
+
+**Repositorio (fork):** github.com/Anthony8719/IDSD422-lab2-diseno-encuesta.git
+
+**Enfoque del equipo (aprobado en clase):** Enfoque Promocional
 
 Completa cada sección. Usa commits por sección; la historia del repositorio se revisa.
 
@@ -10,14 +12,21 @@ Completa cada sección. Usa commits por sección; la historia del repositorio se
 
 ## 1. Objetivo de la encuesta
 
-*Escribe una frase medible: qué decisión de gerencia apoyará esta encuesta.*
+*Analizar el nexo existente entre las promociones comerciales y la frecuencia de compras no planificadas de los consumidores de supermercados en Quito, mediante una encuesta de satisfacción, con la finalidad de proporcionar información que apoye a la gerencia de RetailAndina en el diseño y optimización de sus estrategias promocionales.*
 
 ## 2. Población objetivo
 
-*Define quién pertenece a la población y justifica los límites (región, edad, frecuencia de compra...). Sugerencia: defínela de modo alcanzable — p. ej., personas 18+ que compran habitualmente en supermercados de tu ciudad — para que tus contactos (familia, amigos) califiquen.*
+- Población: 
 
-- Población:
-- Límites y justificación:
+Personas mayores a 18 años que realizan compras con una frecuencia de al menos una vez al mes en los supermercados y que residen en Quito.
+- Límites y justificación: 
+
+La investigación se centra solamente en aquellos consumidores que sean mayores de edad y vivan en Quito, dado que son los únicos que podrían aportar datos sobre el momento en el que llevan a cabo sus hábitos de compra, así como sobre el tipo de promociones comerciales que llevarían a cabo.
+
+A estos efectos, se considera válida una frecuencia mínima de una compra al mes. Así se incluyen, en la muestra, aquellos consumidores que tengan experiencias más o menos recientes en sus compras. Por el contrario, la delimitación de la investigación también facilita la recogida de respuestas, exigiendo solamente a los encuestados que sean familiares, amigos o conocidos (que cumplan con el criterio de consumidores de RetailAndina) que nos ayuden a llevar a cabo la investigación.
+
+Los resultados permitirán explorar la relación entre las promociones y las compras no planificadas dentro del grupo encuestado, aunque no podrán generalizarse a todos los clientes de RetailAndina sin un muestreo probabilístico representativo.
+
 
 ## 3. Método de muestreo
 
