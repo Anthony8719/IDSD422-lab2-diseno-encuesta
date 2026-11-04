@@ -16,7 +16,7 @@
 
 - Población: 
 
-Personas mayores a 18 años que realizan compras con una frecuencia de al menos una vez al mes en los supermercados y que residen en Quito.
+Personas de 18 años o más que realizan compras con una frecuencia de al menos una vez al mes en los supermercados y que residen en Quito.
 - Límites y justificación: 
 
 La investigación se centra solamente en aquellos consumidores que sean mayores de edad y vivan en Quito, dado que son los únicos que podrían aportar datos sobre el momento en el que llevan a cabo sus hábitos de compra, así como sobre el tipo de promociones comerciales que llevarían a cabo.
@@ -28,44 +28,45 @@ Los resultados permitirán explorar la relación entre las promociones y las com
 
 ## 3. Método de muestreo
 
-- **Método:** *Se plantea prevenir la utilización de un muestreo no probabilístico por conveniencia, es decir, se tomarán como participantes aquellos individuos que cumplan con los criterios de la población objetivo y que por tanto puedan ser abordados por los miembros del equipo. Este método será el que permita obtener información sobre la percepción y las promociones comerciales teniendo en cuenta la frecuencia de realizar compras no planificadas y las limitaciones de tiempo y de recursos que poseen el laboratorio.*
+- **Método:** *Se optará por un muestreo no probabilístico por conveniencia. Los participantes serán aquellas personas accesibles a los integrantes del equipo que cumplan con los criterios de la población objetivo. Esta decisión está condicionada por el tiempo y el esfuerzo disponible que tienen los investigadores, y la relación entre promociones comerciales y compras no planificadas, que busca explorar.*
 
-- **Tamaño y justificación:** *Se establece como objetivo obtener 20 respuestas a partir de personas que sean consumidores de 18 años o más, residentes en Quito, que realicen compras en un supermercado al menos una vez al mes. Esta cantidad está dentro de las 15-30 respuestas que se solicitan para la práctica y permitirá llevar a cabo un análisis descriptivo exploratorio de las variables bajo estudio. Debido al tamaño y a la forma no probabilística de la muestra, el resultado no puede ser generalizable a toda la población de consumidores de Quito.*
+- **Tamaño y justificación:** *La cantidad de encuestas a realizar es de 20, es decir, la meta serán aproximadamente cinco respuestas por cada uno de los cuatro integrantes del equipo, situándose dentro del rango de 15 a 30 respuestas. Se encuestará a personas de 18 años o más que residan en la ciudad de Quito y que hayan realizado al menos una compra en supermercados durante el último mes. Este tamaño muestral permitirá describir las tendencias entre los socios encuestados, pero no permitirá estimar resultados representativos para todos los consumidores de Quito.*
 
 - **Cómo se seleccionarán los participantes:** *Las personas que tengamos en el equipo de investigación contactarán a familiares, amigos/compañeros de trabajo, conocidos, etcétera (cualquier persona en el cuerpo o grupo de individuos que se considere que cumplen las condiciones citadas) a través de medios digitales o mediante contacto personal. Antes de aplicar la encuesta se comprobará que los participantes cumplen con las condiciones sujetas a la edad/hábitos de residencia y la frecuencia mínima de compra, conforme se había comentado en el apartado 2. La participación será voluntaria y se intentará incluir consumidores con hábitos de compra diferentes para que haya mayor variabilidad en las respuestas. Cada consumidor responderá una única vez.*
 
-- **Equivalente en código (Python o R):** *Se utilizará Python con la biblioteca pandas para filtrar un archivo CSV de posibles participantes según los criterios de inclusión. Posteriormente, se organizará una lista de hasta 20 personas accesibles para el equipo. El uso de una semilla permitirá reproducir el orden generado, pero no convertirá el procedimiento en un muestreo probabilístico, puesto que los participantes provendrán de contactos disponibles y su participación dependerá de su aceptación.*
+- **Equivalente en código (Python o R):** *Para la verificación de los criterios de inclusión de los potenciales participantes se utilizará un programa escrito en Python que incorpora la biblioteca pandas, y que va a extraer los contactos que el equipo tiene codificados y a su disposición para determinar si reúne las condiciones necesarias para ser considerado un potencial participante. De este modo, comprobará que la persona tenga al menos 18 años, resida en Quito, haya realizado una o más compras en supermercados en los últimos 30 días y acepte participar explícitamente. Y, en consecuencia, seleccionará hasta 20 personas elegibles, según el tamaño de muestra preestablecido.*
 
 ```bash
 
-
 import pandas as pd
 
-# Archivo de posibles participantes
-df = pd.read_csv("clientes.csv")
+# Cargar las respuestas del cuestionario
+df = pd.read_csv("plantillas/encuesta_respuestas.csv")
 
-# Verificar los criterios de inclusión
-elegibles = df[
-    (df["edad"] >= 18) &
-    (df["ciudad"].str.strip().str.lower() == "quito") &
-    (df["compras_mes"] >= 1)
-]
+# Separar las respuestas reales de las simuladas
+reales = df[
+    df["origen"].astype("string").str.strip().str.lower() == "real"
+].copy()
 
-# Organizar hasta 20 contactos elegibles y accesibles
-# La semilla hace reproducible el orden
-muestra = elegibles.sample(
-    n=min(20, len(elegibles)),
-    random_state=42
-)
+print("Total de registros:", len(df))
+print("Respuestas reales:", len(reales))
 
-print("Participantes elegibles:", len(elegibles))
-print("Contactos seleccionados:", len(muestra))
-print(muestra)
+# Revisar tipos de datos
+print("\nTipos de datos:")
+print(reales.dtypes)
 
+# Identificar datos faltantes
+print("\nDatos faltantes:")
+print(reales.isna().sum())
+
+# Obtener distribuciones de las preguntas
+for columna in reales.columns:
+    print(f"\nDistribución de {columna}:")
+    print(reales[columna].value_counts(dropna=False))
 
 ```
 
-- **Justificación del método:** *El muestreo por conveniencia se ha elegido en vez del aleatorio simple o el estratificado, en vista que el equipo no disponga de un marco muestral completo de los consumidores de los supermercados de Quito. Es cierto que, dadas las condiciones adecuadas, los métodos probabilísticos posibilitarán llevar a cabo inferencias estadísticas; sin embargo, ello exigiría la elaboración de una lista de la población, además de procedimientos de selección de la misma con probabilidades conocidas. Así pues, dado los propósitos exploratorios del laboratorio, la conveniencia se muestra más útil pues posibilitará captar tendencias preliminares que puedan dar cuenta de las estrategias promocionales de RetailAndina.*
+- **Justificación del método:** *El procedimiento descrito no modificará el archivo encuesta_respuestas.csv, ya que el objetivo no es el tratamiento de las respuestas del cuestionario, sino facilitar la selección de potenciales participantes. El mismo archivo, encuesta_respuestas.csv, será modificado según las preguntas que hayan sido enviadas para su aprobación, y será el que se utilice para la recogida y verificación de los datos. Como el seguimiento es de conveniencia, el código no está orientado a hacer una selección probabilística, sino organizar a los participantes disponibles pudiendo cumplir con criterios de selección.*
 
 ## 4. Cuestionario (5–10 preguntas)
 
