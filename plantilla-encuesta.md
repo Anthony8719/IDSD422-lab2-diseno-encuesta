@@ -34,39 +34,81 @@ Los resultados permitirán explorar la relación entre las promociones y las com
 
 - **Cómo se seleccionarán los participantes:** *Las personas que tengamos en el equipo de investigación contactarán a familiares, amigos/compañeros de trabajo, conocidos, etcétera (cualquier persona en el cuerpo o grupo de individuos que se considere que cumplen las condiciones citadas) a través de medios digitales o mediante contacto personal. Antes de aplicar la encuesta se comprobará que los participantes cumplen con las condiciones sujetas a la edad/hábitos de residencia y la frecuencia mínima de compra, conforme se había comentado en el apartado 2. La participación será voluntaria y se intentará incluir consumidores con hábitos de compra diferentes para que haya mayor variabilidad en las respuestas. Cada consumidor responderá una única vez.*
 
-- **Equivalente en código (Python o R):** *Para la verificación de los criterios de inclusión de los potenciales participantes se utilizará un programa escrito en Python que incorpora la biblioteca pandas, y que va a extraer los contactos que el equipo tiene codificados y a su disposición para determinar si reúne las condiciones necesarias para ser considerado un potencial participante. De este modo, comprobará que la persona tenga al menos 18 años, resida en Quito, haya realizado una o más compras en supermercados en los últimos 30 días y acepte participar explícitamente. Y, en consecuencia, seleccionará hasta 20 personas elegibles, según el tamaño de muestra preestablecido.*
+- **Equivalente en código (Python):**
 
-```bash
+Para representar el proceso de selección se utiliza Python con la biblioteca pandas. El procedimiento consiste en identificar a los candidatos accesibles al equipo que cumplen con los criterios de inclusión: tener al menos 18 años, residir en Quito, haber realizado al menos una compra en supermercados durante los últimos 30 días y aceptar ser contactados.
 
+Se emplea una semilla de valor 42 para reproducir el orden de contacto de los participantes elegibles. Esta aleatorización se realiza únicamente dentro del grupo accesible al equipo y no convierte el muestreo por conveniencia en una muestra probabilística de toda la población de Quito.
+
+El siguiente código utiliza 30 candidatos ficticios codificados exclusivamente para demostrar su funcionamiento. Estos registros no constituyen respuestas reales de la encuesta.
+
+```python
 import pandas as pd
 
-# Cargar las respuestas del cuestionario
-df = pd.read_csv("plantillas/encuesta_respuestas.csv")
+# Candidatos ficticios para demostrar el metodo
+candidatos = pd.DataFrame([
+    {
+        "codigo": f"C{i:03d}",
+        "edad": 18 + i,
+        "ciudad": "Quito" if i % 7 else "Ibarra",
+        "compras_30d": i % 9,
+        "acepta_contacto": i % 11 != 0
+    }
+    for i in range(1, 31)
+])
 
-# Separar las respuestas reales de las simuladas
-reales = df[
-    df["origen"].astype("string").str.strip().str.lower() == "real"
+# Aplicar los criterios de inclusion
+elegibles = candidatos[
+    (candidatos["edad"] >= 18) &
+    (candidatos["ciudad"] == "Quito") &
+    (candidatos["compras_30d"] >= 1) &
+    (candidatos["acepta_contacto"])
 ].copy()
 
-print("Total de registros:", len(df))
-print("Respuestas reales:", len(reales))
+# Establecer el objetivo y la semilla
+n_objetivo = 20
+semilla = 42
 
-# Revisar tipos de datos
-print("\nTipos de datos:")
-print(reales.dtypes)
+# Orden reproducible de contacto
+orden_contacto = elegibles.sample(
+    frac=1, random_state=semilla
+)
 
-# Identificar datos faltantes
-print("\nDatos faltantes:")
-print(reales.isna().sum())
+# Primeros candidatos a contactar
+seleccion = orden_contacto.head(n_objetivo)
 
-# Obtener distribuciones de las preguntas
-for columna in reales.columns:
-    print(f"\nDistribución de {columna}:")
-    print(reales[columna].value_counts(dropna=False))
-
+print("Candidatos disponibles:", len(candidatos))
+print("Candidatos elegibles:", len(elegibles))
+print("Semilla utilizada:", semilla)
+print("Seleccionados para contacto:", len(seleccion))
+print("Codigos:", seleccion["codigo"].tolist())
 ```
 
-- **Justificación del método:** *El procedimiento descrito no modificará el archivo encuesta_respuestas.csv, ya que el objetivo no es el tratamiento de las respuestas del cuestionario, sino facilitar la selección de potenciales participantes. El mismo archivo, encuesta_respuestas.csv, será modificado según las preguntas que hayan sido enviadas para su aprobación, y será el que se utilice para la recogida y verificación de los datos. Como el seguimiento es de conveniencia, el código no está orientado a hacer una selección probabilística, sino organizar a los participantes disponibles pudiendo cumplir con criterios de selección.*
+**Resultado de una corrida de demostración:**
+
+```text
+Candidatos disponibles: 30
+Candidatos elegibles: 21
+Semilla utilizada: 42
+Seleccionados para contacto: 20
+
+Codigos:
+C001, C025, C023, C002, C012,
+C006, C016, C004, C026, C024,
+C019, C003, C013, C030, C005,
+C017, C010, C015, C020, C029
+```
+
+- **Justificación del método:**
+
+Se eligió el muestreo no probabilístico por conveniencia debido a las limitaciones de tiempo y recursos disponibles para la aplicación de la encuesta. Los cuatro integrantes del equipo contactarán a familiares, amigos y conocidos que cumplan con los criterios de inclusión, buscando obtener aproximadamente 20 respuestas reales.
+
+El código demuestra cómo verificar los criterios de elegibilidad y organizar de manera reproducible el contacto de los posibles participantes. La selección dentro del grupo accesible no garantiza representatividad estadística de los consumidores de Quito.
+
+Durante la aplicación real se registrará el número de personas contactadas, las que respondieron y las que no respondieron. Cuando una persona no responda, podrán contactarse otros candidatos elegibles hasta alcanzar el tamaño previsto.
+
+La semilla 42 permite reproducir la corrida ilustrativa, pero no debe interpretarse como evidencia de que la selección real haya sido aleatoria. Los resultados de la encuesta únicamente permitirán describir las características y opiniones de las personas participantes.
+
 
 ## 4. Cuestionario (5–10 preguntas)
 
