@@ -134,6 +134,90 @@ La semilla 42 permite reproducir la corrida ilustrativa, pero no debe interpreta
 | 9 | Considerando su experiencia de compra más reciente, ¿recomendaría ese supermercado a familiares o amigos? | Categórica binaria | category | Sí; No |
 | 10 | ¿Qué tipo de promoción motiva más sus compras no planificadas? | Categórica nominal | category | Descuento directo; 2x1; Cupón; Puntos o programa de fidelización |
 
+### Actividad bonus: prueba piloto y ajustes del cuestionario
+
+**Objetivo del pilotaje**
+
+Evaluar la claridad, coherencia y pertinencia de las preguntas del cuestionario mediante una aplicación preliminar, con el propósito de identificar posibles dificultades de interpretación y mejorar la calidad de las respuestas antes de su aplicación definitiva.
+
+**Participantes y procedimiento**
+
+Durante la elaboración inicial del cuestionario, las integrantes Andrea Cumbal y Paola Pacheco realizaron una prueba piloto interna, respondiendo el formulario como si fueran participantes de la población objetivo.
+
+Esta actividad se desarrolló antes de la entrega del borrador para la revisión del docente. Durante el proceso, ambas integrantes evaluaron la comprensión de las preguntas, las opciones disponibles y la coherencia entre las respuestas solicitadas.
+
+Como resultado, se identificaron tres aspectos que requerían modificaciones para mejorar la precisión del instrumento y facilitar el posterior procesamiento de los datos.
+
+**Observaciones identificadas y ajustes realizados**
+
+| Pregunta | Problema identificado | Ajuste realizado |
+|---|---|---|
+| **P5. Compras no planificadas** | La pregunta hacía referencia exclusiva a RetailAndina, a pesar de que la población objetivo comprendía consumidores de diferentes supermercados de Quito. | Se eliminó la referencia a la cadena comercial para permitir que los participantes respondieran considerando sus compras en cualquier supermercado. |
+| **P6. Frecuencia de compras no planificadas** | No se especificaba qué debía responder una persona que hubiera seleccionado «No» en P5, lo que podía ocasionar respuestas ambiguas o inconsistentes. | Se incorporó la instrucción de registrar el valor 0 cuando la respuesta a P5 fuera «No». |
+| **P10. Gasto en compras no planificadas** | La pregunta solicitaba ingresar libremente un valor monetario aproximado. Esto podía generar respuestas en distintos formatos, valores no válidos o cantidades difíciles de comparar. | Se reemplazó por una pregunta categórica de selección única sobre el tipo de promoción que más motiva las compras no planificadas, utilizando opciones previamente definidas. |
+
+**Detalle de las modificaciones**
+
+**Pregunta 5: delimitación del establecimiento comercial**
+
+*Redacción inicial:*
+
+Durante los últimos 30 días, ¿compró algún producto que no tenía previsto adquirir debido a una promoción o descuento en Retain Andina?
+
+*Redacción corregida:*
+
+Durante los últimos 30 días, ¿compró algún producto que no tenía previsto adquirir debido a una promoción o descuento?
+
+**Justificación:** La modificación permitió mantener la coherencia entre la pregunta y la población objetivo, evitando restringir las respuestas únicamente a experiencias de compra en RetailAndina.
+
+**Pregunta 6: consistencia de las respuestas**
+
+*Redacción inicial:*
+
+Durante los últimos 30 días, ¿en cuántas de sus compras adquirió productos que no tenía planificado comprar debido a promociones o descuentos?
+
+*Redacción corregida:*
+
+Durante los últimos 30 días, ¿en cuántas de sus compras adquirió productos que no tenía planificado comprar debido a promociones o descuentos? Si respondió «No» en la pregunta 5, escriba 0.
+
+**Justificación:** Esta modificación estableció una instrucción específica para los participantes que no realizaron compras no planificadas. De este modo, se facilitó el registro de valores numéricos coherentes con la respuesta anterior y se redujo la posibilidad de interpretaciones diferentes.
+
+**Pregunta 10: precisión y estandarización de las respuestas**
+
+*Redacción inicial:*
+
+En su compra más reciente, ¿cuánto dinero gastó aproximadamente en productos que no tenía previsto comprar, pero adquirió debido a promociones o descuentos?
+
+*Redacción corregida:*
+
+¿Qué tipo de promoción motiva más sus compras no planificadas?
+
+*Opciones de respuesta:*
+
+- Descuento directo.
+- 2x1.
+- Cupón.
+- Puntos o programa de fidelización.
+
+**Justificación:** La pregunta inicial solicitaba una estimación monetaria mediante una respuesta abierta, lo que podía ocasionar dificultades de interpretación y producir valores heterogéneos o no válidos para el análisis. Además, algunos participantes podían tener dificultades para recordar el monto específico de sus compras no planificadas.
+
+Por esta razón, se decidió sustituirla por una pregunta categórica nominal con opciones predefinidas, orientada a identificar el tipo de promoción que más influye en las compras no planificadas. Esta modificación permitió estandarizar las categorías de respuesta y facilitar su posterior clasificación y análisis en Python.
+
+**Resultados del pilotaje**
+
+La prueba piloto permitió identificar y corregir tres problemas relacionados con la delimitación de las preguntas, la consistencia entre respuestas y la estandarización de los datos.
+
+Las modificaciones realizadas contribuyeron a mejorar la coherencia del cuestionario con el enfoque promocional aprobado para el equipo. Asimismo, permitieron establecer instrucciones más claras y opciones de respuesta apropiadas para el procesamiento estadístico.
+
+Los ajustes fueron incorporados durante la etapa de elaboración del instrumento, antes de su entrega para la revisión docente.
+
+**Conclusión del pilotaje**
+
+La prueba piloto realizada por Andrea Cumbal y Paola Pacheco constituyó una etapa de revisión y mejora del diseño de la encuesta. Al completar el cuestionario desde la perspectiva de los participantes, fue posible detectar dificultades que podían pasar inadvertidas durante su redacción inicial.
+
+La identificación y corrección de estos problemas permitió fortalecer la claridad, coherencia y estructura de las preguntas, contribuyendo a mejorar la calidad del instrumento utilizado en el laboratorio. De esta manera, el pilotaje aportó evidencia del proceso de evaluación y refinamiento del cuestionario previo a su aplicación definitiva.
+
+
 ## 5. Análisis de sesgos
 
 Se identifican dos posibles sesgos que podrían afectar la calidad y confiabilidad de los resultados de la encuesta.
