@@ -34,6 +34,12 @@ Los resultados permitirán explorar la relación entre las promociones y las com
 
 - **Cómo se seleccionarán los participantes:** *Las personas que tengamos en el equipo de investigación contactarán a familiares, amigos/compañeros de trabajo, conocidos, etcétera (cualquier persona en el cuerpo o grupo de individuos que se considere que cumplen las condiciones citadas) a través de medios digitales o mediante contacto personal. Antes de aplicar la encuesta se comprobará que los participantes cumplen con las condiciones sujetas a la edad/hábitos de residencia y la frecuencia mínima de compra, conforme se había comentado en el apartado 2. La participación será voluntaria y se intentará incluir consumidores con hábitos de compra diferentes para que haya mayor variabilidad en las respuestas. Cada consumidor responderá una única vez.*
 
+- **Aplicación de la encuesta y estimación de participación:**
+
+*La aplicación del cuestionario se desarrolló mediante un proceso de difusión descentralizado, en el que los cuatro integrantes del equipo compartieron el instrumento principalmente a través de WhatsApp y sus respectivas redes de contacto familiar y personal. Esta estrategia respondió a las características del muestreo no probabilístico por conveniencia y permitió facilitar el acceso al cuestionario sin requerir procedimientos de identificación individual de los participantes.*
+
+*Con el propósito de documentar el alcance de la difusión, se realizó una estimación retrospectiva a partir de la información proporcionada por cada integrante. Según este registro, el primer integrante compartió el cuestionario con aproximadamente 5 personas; el segundo, con 4; el tercero, con 12; y el cuarto, con 14. En conjunto, se contabilizaron 35 invitaciones estimadas, mientras que el formulario registró 15 respuestas reales.*
+
 - **Equivalente en código (Python):**
 
 Para representar el proceso de selección se utiliza Python con la biblioteca pandas. El procedimiento consiste en identificar a los candidatos accesibles al equipo que cumplen con los criterios de inclusión: tener al menos 18 años, residir en Quito, haber realizado al menos una compra en supermercados durante los últimos 30 días y aceptar ser contactados.
@@ -136,6 +142,16 @@ Se identifican dos posibles sesgos que podrían afectar la calidad y confiabilid
 |---|---|
 | **1. Sesgo de selección:** Al utilizar un muestreo no probabilístico por conveniencia, los participantes serán principalmente familiares, amigos y conocidos de los integrantes del equipo. Esto puede ocasionar que las respuestas correspondan a consumidores con características o hábitos de compra similares, limitando la diversidad de opiniones y la representatividad de los resultados. | Se procurará incluir personas de diferentes rangos de edad y con distintas frecuencias de compra, siempre que cumplan con los criterios establecidos. Además, se evitará concentrar las encuestas en un solo grupo de conocidos y se reconocerá que los resultados representan únicamente a los participantes encuestados. |
 | **2. Sesgo de respuesta:** Los participantes podrían proporcionar respuestas que consideran socialmente aceptables en lugar de reflejar sus verdaderos hábitos de compra. Por ejemplo, podrían minimizar la cantidad de productos que compran impulsivamente debido a las promociones para demostrar un mayor control sobre sus gastos. | Se utilizarán preguntas claras y neutrales, evitando expresiones que puedan influir en las respuestas. Además, se garantizará el anonimato de los participantes y se explicará que no existen respuestas correctas o incorrectas, con el fin de fomentar respuestas sinceras. |
+
+A partir de estas cifras, y suponiendo que las invitaciones correspondieron a personas distintas y que las respuestas procedieron exclusivamente de dichos contactos, se obtiene una tasa aparente de participación del 42,86 %, así como una diferencia estimada de 20 invitaciones sin respuesta registrada, equivalente al 57,14 %.
+
+Sin embargo, debido a que la encuesta se distribuyó mediante plataformas de mensajería y se respondió de forma anónima, no fue posible establecer una correspondencia individual entre las invitaciones enviadas y las respuestas recibidas. Tampoco se contó con mecanismos para identificar posibles coincidencias entre las redes de contacto, reenvíos del enlace o personas que recibieron la invitación sin acceder al cuestionario. Por consiguiente, las cifras de participación y no respuesta deben interpretarse como estimaciones operativas, no como indicadores verificados individualmente.
+
+Desde una perspectiva metodológica, este procedimiento permitió cumplir con el volumen mínimo de respuestas reales establecido para la práctica, manteniendo la participación voluntaria y la minimización de datos personales. No obstante, se reconoce que la ausencia de seguimiento individual y la naturaleza no probabilística de la selección limitan la capacidad de evaluar con precisión el sesgo de no respuesta y la representatividad de la muestra. En consecuencia, los resultados se utilizarán exclusivamente para un análisis descriptivo y exploratorio de los participantes, sin efectuar generalizaciones estadísticas sobre la totalidad de consumidores de Quito.
+
+**Consideración sobre los datos simulados:**
+
+Adicionalmente, se incorporaron 85 respuestas simuladas para completar un conjunto de 100 registros con fines académicos. Estas observaciones se encuentran identificadas mediante la variable origen = simulada y no forman parte del cálculo estimado de participación, puesto que no corresponden a personas efectivamente encuestadas. Los análisis relativos a participación, no respuesta y posibles sesgos se fundamentarán únicamente en las 15 respuestas reales.
 
 ## 6. Confidencialidad (RA3)
 
