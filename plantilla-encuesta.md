@@ -124,8 +124,8 @@ La semilla 42 permite reproducir la corrida ilustrativa, pero no debe interpreta
 | 5 | En su compra más reciente, ¿compró algún producto que no tenía previsto adquirir debido a una promoción o descuento? | Categórica binaria | category | Sí; No |
 | 6 | Durante los últimos 30 días, ¿en cuántas de sus compras adquirió productos que no tenía planificado comprar debido a promociones? | Numérica discreta | Int64 | Número entero entre 0 y el valor indicado en P2 |
 | 7 | ¿Qué tan importantes son las promociones y descuentos al momento de elegir un supermercado? | Categórica ordinal | category | 1 = Nada importantes; 2 = Poco importantes; 3 = Moderadamente importantes; 4 = Importantes; 5 = Muy importantes |
-| 8 | ¿Qué tan satisfecho/a se encuentra con las promociones y descuentos ofrecidos por RetailAndina en su compra más reciente en esta cadena? | Categórica ordinal | category | 1 = Muy insatisfecho/a; 2 = Insatisfecho/a; 3 = Ni satisfecho/a ni insatisfecho/a; 4 = Satisfecho/a; 5 = Muy satisfecho/a |
-| 9 | Considerando su experiencia de compra más reciente en RetailAndina, ¿recomendaría RetailAndina a familiares o amigos? | Categórica binaria | category | Sí; No |
+| 8 | ¿Qué tan satisfecho/a se encuentra con las promociones y descuentos ofrecidos por el supermercado donde realizó su compra más reciente? | Categórica ordinal | category | 1 = Muy insatisfecho/a; 2 = Insatisfecho/a; 3 = Ni satisfecho/a ni insatisfecho/a; 4 = Satisfecho/a; 5 = Muy satisfecho/a |
+| 9 | Considerando su experiencia de compra más reciente, ¿recomendaría ese supermercado a familiares o amigos? | Categórica binaria | category | Sí; No |
 | 10 | ¿Qué tipo de promoción motiva más sus compras no planificadas? | Categórica nominal | category | Descuento directo; 2x1; Cupón; Puntos o programa de fidelización; Otro (especifique) |
 
 ## 5. Análisis de sesgos
