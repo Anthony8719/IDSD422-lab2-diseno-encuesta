@@ -1,101 +1,101 @@
-﻿id,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,origen
-R01,45-54,4,Sí,Sí,Sí,2,5 = Muy importantes,5 = Muy satisfecho/a,Sí,2x1,real
-R02,18-24,5,Sí,Sí,Sí,4,3 = Moderadamente importantes,4 = Satisfecho/a,Sí,Puntos o programa de fidelización,real
-R03,25-34,4,Sí,Sí,Sí,2,5 = Muy importantes,5 = Muy satisfecho/a,Sí,2x1,real
-R05,25-34,2,Sí,Sí,Sí,1,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,real
-R06,25-34,3,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,2x1,real
-R09,25-34,5,Sí,Sí,Sí,2,1 = Nada importantes,2 = Insatisfecho/a,No,Descuento directo,real
-R10,45-54,1,Sí,Sí,No,0,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,real
-R11,55 años o más,2,Sí,Sí,No,0,4 = Importantes,4 = Satisfecho/a,Sí,2x1,real
-R12,55 años o más,1,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,2x1,real
-R13,45-54,1,Sí,Sí,No,0,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,real
-R14,45-54,2,Sí,Sí,No,0,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,real
-R15,45-54,2,Sí,Sí,No,0,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,real
-R17,18-24,2,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,Descuento directo,real
-R19,35-44,1,Sí,Sí,No,0,5 = Muy importantes,4 = Satisfecho/a,No,Puntos o programa de fidelización,real
-R20,35-44,3,Sí,Sí,No,0,4 = Importantes,4 = Satisfecho/a,Sí,Cupón,real
-S001,18-24,5,Sí,No,Sí,5,4 = Importantes,4 = Satisfecho/a,Sí,Cupón,simulada
-S002,45-54,5,Sí,Sí,Sí,3,3 = Moderadamente importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
-S003,18-24,4,No,No,Sí,4,2 = Poco importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,2x1,simulada
-S004,45-54,5,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,2x1,simulada
-S005,55 años o más,2,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,Puntos o programa de fidelización,simulada
-S006,25-34,3,Sí,Sí,Sí,3,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,Puntos o programa de fidelización,simulada
-S007,18-24,2,Sí,Sí,No,0,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,simulada
-S008,18-24,1,Sí,Sí,Sí,1,1 = Nada importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
-S009,18-24,3,No,No,Sí,3,4 = Importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
-S010,55 años o más,3,Sí,Sí,Sí,2,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,2x1,simulada
-S011,45-54,4,Sí,Sí,No,0,4 = Importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
-S012,18-24,1,Sí,Sí,No,0,4 = Importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
-S013,25-34,4,No,No,Sí,2,4 = Importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
-S014,25-34,6,Sí,Sí,No,0,4 = Importantes,4 = Satisfecho/a,Sí,Puntos o programa de fidelización,simulada
-S015,18-24,2,Sí,Sí,Sí,1,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,simulada
-S016,18-24,4,No,No,Sí,4,2 = Poco importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,simulada
-S017,35-44,5,Sí,Sí,Sí,4,5 = Muy importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
-S018,35-44,2,Sí,Sí,No,0,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Puntos o programa de fidelización,simulada
-S019,18-24,2,Sí,Sí,Sí,1,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,2x1,simulada
-S020,18-24,5,Sí,Sí,Sí,3,2 = Poco importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,simulada
-S021,18-24,4,Sí,Sí,Sí,3,2 = Poco importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
-S022,25-34,5,Sí,Sí,No,0,3 = Moderadamente importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
-S023,25-34,6,Sí,Sí,Sí,1,3 = Moderadamente importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
-S024,18-24,3,Sí,Sí,Sí,3,5 = Muy importantes,4 = Satisfecho/a,Sí,2x1,simulada
-S025,35-44,1,Sí,Sí,Sí,1,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,simulada
-S026,25-34,5,Sí,Sí,Sí,5,3 = Moderadamente importantes,4 = Satisfecho/a,No,2x1,simulada
-S027,45-54,2,Sí,Sí,No,0,5 = Muy importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
-S028,25-34,4,Sí,Sí,No,0,5 = Muy importantes,4 = Satisfecho/a,Sí,2x1,simulada
-S029,18-24,3,Sí,Sí,No,0,2 = Poco importantes,4 = Satisfecho/a,Sí,2x1,simulada
-S030,45-54,1,Sí,No,No,0,4 = Importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
-S031,25-34,5,Sí,No,Sí,3,3 = Moderadamente importantes,2 = Insatisfecho/a,No,Cupón,simulada
-S032,18-24,2,Sí,No,No,0,5 = Muy importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
-S033,35-44,4,Sí,No,No,0,3 = Moderadamente importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
-S034,25-34,8,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
-S035,25-34,6,Sí,Sí,Sí,5,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,2x1,simulada
-S036,18-24,5,Sí,No,Sí,2,4 = Importantes,2 = Insatisfecho/a,No,Descuento directo,simulada
-S037,35-44,4,Sí,Sí,Sí,1,5 = Muy importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
-S038,18-24,3,Sí,Sí,No,0,4 = Importantes,4 = Satisfecho/a,No,2x1,simulada
-S039,45-54,6,Sí,No,Sí,4,4 = Importantes,4 = Satisfecho/a,Sí,2x1,simulada
-S040,55 años o más,2,Sí,Sí,No,0,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Puntos o programa de fidelización,simulada
-S041,35-44,2,Sí,Sí,No,0,4 = Importantes,5 = Muy satisfecho/a,Sí,Puntos o programa de fidelización,simulada
-S042,25-34,1,Sí,Sí,Sí,1,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,simulada
-S043,18-24,2,No,No,Sí,2,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Puntos o programa de fidelización,simulada
-S044,18-24,3,Sí,Sí,Sí,1,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,simulada
-S045,18-24,2,Sí,No,No,0,4 = Importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
-S046,55 años o más,1,Sí,Sí,Sí,1,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,simulada
-S047,18-24,5,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
-S048,55 años o más,7,Sí,Sí,No,0,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Cupón,simulada
-S049,35-44,7,Sí,No,Sí,7,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Puntos o programa de fidelización,simulada
-S050,45-54,4,Sí,Sí,Sí,2,4 = Importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
-S051,45-54,2,Sí,Sí,No,0,5 = Muy importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
-S052,35-44,4,Sí,Sí,Sí,2,1 = Nada importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
-S053,25-34,7,Sí,Sí,Sí,1,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,2x1,simulada
-S054,35-44,2,Sí,No,Sí,2,2 = Poco importantes,1 = Muy insatisfecho/a,No,2x1,simulada
-S055,35-44,2,Sí,Sí,No,0,4 = Importantes,4 = Satisfecho/a,Sí,Cupón,simulada
-S056,25-34,6,Sí,No,Sí,3,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,simulada
-S057,18-24,7,Sí,Sí,No,0,1 = Nada importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
-S058,35-44,5,Sí,Sí,Sí,1,4 = Importantes,2 = Insatisfecho/a,No,2x1,simulada
-S059,25-34,3,No,No,No,0,4 = Importantes,4 = Satisfecho/a,No,Descuento directo,simulada
-S060,45-54,4,Sí,Sí,Sí,2,5 = Muy importantes,4 = Satisfecho/a,No,Puntos o programa de fidelización,simulada
-S061,25-34,2,Sí,Sí,No,0,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,simulada
-S062,35-44,1,Sí,Sí,Sí,1,5 = Muy importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
-S063,35-44,6,Sí,Sí,No,0,5 = Muy importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
-S064,25-34,6,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,Cupón,simulada
-S065,25-34,5,Sí,Sí,Sí,5,2 = Poco importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,simulada
-S066,45-54,2,Sí,Sí,Sí,2,3 = Moderadamente importantes,2 = Insatisfecho/a,Sí,Descuento directo,simulada
-S067,25-34,6,Sí,Sí,Sí,1,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,simulada
-S068,45-54,1,Sí,Sí,Sí,1,5 = Muy importantes,4 = Satisfecho/a,Sí,2x1,simulada
-S069,45-54,3,Sí,Sí,Sí,2,5 = Muy importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
-S070,18-24,6,Sí,Sí,Sí,1,5 = Muy importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
-S071,45-54,6,No,No,Sí,6,3 = Moderadamente importantes,1 = Muy insatisfecho/a,No,2x1,simulada
-S072,35-44,5,No,No,No,0,4 = Importantes,4 = Satisfecho/a,Sí,Puntos o programa de fidelización,simulada
-S073,18-24,5,Sí,Sí,Sí,5,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,2x1,simulada
-S074,45-54,3,Sí,Sí,Sí,3,4 = Importantes,5 = Muy satisfecho/a,Sí,Cupón,simulada
-S075,35-44,5,Sí,Sí,Sí,3,3 = Moderadamente importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
-S076,35-44,4,No,No,Sí,2,5 = Muy importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
-S077,35-44,3,Sí,Sí,No,0,5 = Muy importantes,4 = Satisfecho/a,Sí,2x1,simulada
-S078,35-44,2,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,Puntos o programa de fidelización,simulada
-S079,35-44,5,Sí,Sí,Sí,4,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,simulada
-S080,25-34,3,Sí,No,Sí,2,5 = Muy importantes,4 = Satisfecho/a,Sí,Cupón,simulada
-S081,25-34,2,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,No,Descuento directo,simulada
-S082,25-34,5,No,No,Sí,1,5 = Muy importantes,4 = Satisfecho/a,Sí,Cupón,simulada
-S083,18-24,2,Sí,No,Sí,1,4 = Importantes,4 = Satisfecho/a,No,2x1,simulada
-S084,18-24,4,No,No,Sí,1,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,2x1,simulada
-S085,25-34,3,Sí,Sí,No,0,5 = Muy importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
+﻿Marca temporal,id,P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,origen
+2026/11/04 9:13:54 p.m. GMT-5,R01,45-54,4,Sí,Sí,Sí,2,5 = Muy importantes,5 = Muy satisfecho/a,Sí,2x1,real
+2026/11/04 9:14:55 p.m. GMT-5,R02,18-24,5,Sí,Sí,Sí,4,3 = Moderadamente importantes,4 = Satisfecho/a,Sí,Puntos o programa de fidelización,real
+2026/11/04 9:19:10 p.m. GMT-5,R03,25-34,4,Sí,Sí,Sí,2,5 = Muy importantes,5 = Muy satisfecho/a,Sí,2x1,real
+2026/11/04 9:38:06 p.m. GMT-5,R05,25-34,2,Sí,Sí,Sí,1,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,real
+2026/11/04 9:48:54 p.m. GMT-5,R06,25-34,3,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,2x1,real
+2026/11/04 10:16:11 p.m. GMT-5,R09,25-34,5,Sí,Sí,Sí,2,1 = Nada importantes,2 = Insatisfecho/a,No,Descuento directo,real
+2026/11/04 11:38:20 p.m. GMT-5,R10,45-54,1,Sí,Sí,No,0,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,real
+2026/11/05 2:13:10 a.m. GMT-5,R11,55 años o más,2,Sí,Sí,No,0,4 = Importantes,4 = Satisfecho/a,Sí,2x1,real
+2026/11/05 5:30:10 a.m. GMT-5,R12,55 años o más,1,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,2x1,real
+2026/11/05 8:14:16 a.m. GMT-5,R13,45-54,1,Sí,Sí,No,0,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,real
+2026/11/05 8:14:22 a.m. GMT-5,R14,45-54,2,Sí,Sí,No,0,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,real
+2026/11/05 8:16:32 a.m. GMT-5,R15,45-54,2,Sí,Sí,No,0,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,real
+2026/11/05 8:13:53 p.m. GMT-5,R17,18-24,2,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,Descuento directo,real
+2026/11/05 8:40:45 p.m. GMT-5,R19,35-44,1,Sí,Sí,No,0,5 = Muy importantes,4 = Satisfecho/a,No,Puntos o programa de fidelización,real
+2026/11/05 8:42:11 p.m. GMT-5,R20,35-44,3,Sí,Sí,No,0,4 = Importantes,4 = Satisfecho/a,Sí,Cupón,real
+No aplica (simulada),S001,18-24,5,Sí,No,Sí,5,4 = Importantes,4 = Satisfecho/a,Sí,Cupón,simulada
+No aplica (simulada),S002,45-54,5,Sí,Sí,Sí,3,3 = Moderadamente importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S003,18-24,4,No,No,Sí,4,2 = Poco importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,2x1,simulada
+No aplica (simulada),S004,45-54,5,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S005,55 años o más,2,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,Puntos o programa de fidelización,simulada
+No aplica (simulada),S006,25-34,3,Sí,Sí,Sí,3,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,Puntos o programa de fidelización,simulada
+No aplica (simulada),S007,18-24,2,Sí,Sí,No,0,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S008,18-24,1,Sí,Sí,Sí,1,1 = Nada importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S009,18-24,3,No,No,Sí,3,4 = Importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S010,55 años o más,3,Sí,Sí,Sí,2,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,2x1,simulada
+No aplica (simulada),S011,45-54,4,Sí,Sí,No,0,4 = Importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S012,18-24,1,Sí,Sí,No,0,4 = Importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S013,25-34,4,No,No,Sí,2,4 = Importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S014,25-34,6,Sí,Sí,No,0,4 = Importantes,4 = Satisfecho/a,Sí,Puntos o programa de fidelización,simulada
+No aplica (simulada),S015,18-24,2,Sí,Sí,Sí,1,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S016,18-24,4,No,No,Sí,4,2 = Poco importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S017,35-44,5,Sí,Sí,Sí,4,5 = Muy importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S018,35-44,2,Sí,Sí,No,0,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Puntos o programa de fidelización,simulada
+No aplica (simulada),S019,18-24,2,Sí,Sí,Sí,1,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,2x1,simulada
+No aplica (simulada),S020,18-24,5,Sí,Sí,Sí,3,2 = Poco importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S021,18-24,4,Sí,Sí,Sí,3,2 = Poco importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S022,25-34,5,Sí,Sí,No,0,3 = Moderadamente importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S023,25-34,6,Sí,Sí,Sí,1,3 = Moderadamente importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S024,18-24,3,Sí,Sí,Sí,3,5 = Muy importantes,4 = Satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S025,35-44,1,Sí,Sí,Sí,1,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S026,25-34,5,Sí,Sí,Sí,5,3 = Moderadamente importantes,4 = Satisfecho/a,No,2x1,simulada
+No aplica (simulada),S027,45-54,2,Sí,Sí,No,0,5 = Muy importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S028,25-34,4,Sí,Sí,No,0,5 = Muy importantes,4 = Satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S029,18-24,3,Sí,Sí,No,0,2 = Poco importantes,4 = Satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S030,45-54,1,Sí,No,No,0,4 = Importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S031,25-34,5,Sí,No,Sí,3,3 = Moderadamente importantes,2 = Insatisfecho/a,No,Cupón,simulada
+No aplica (simulada),S032,18-24,2,Sí,No,No,0,5 = Muy importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S033,35-44,4,Sí,No,No,0,3 = Moderadamente importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S034,25-34,8,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S035,25-34,6,Sí,Sí,Sí,5,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,2x1,simulada
+No aplica (simulada),S036,18-24,5,Sí,No,Sí,2,4 = Importantes,2 = Insatisfecho/a,No,Descuento directo,simulada
+No aplica (simulada),S037,35-44,4,Sí,Sí,Sí,1,5 = Muy importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S038,18-24,3,Sí,Sí,No,0,4 = Importantes,4 = Satisfecho/a,No,2x1,simulada
+No aplica (simulada),S039,45-54,6,Sí,No,Sí,4,4 = Importantes,4 = Satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S040,55 años o más,2,Sí,Sí,No,0,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Puntos o programa de fidelización,simulada
+No aplica (simulada),S041,35-44,2,Sí,Sí,No,0,4 = Importantes,5 = Muy satisfecho/a,Sí,Puntos o programa de fidelización,simulada
+No aplica (simulada),S042,25-34,1,Sí,Sí,Sí,1,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S043,18-24,2,No,No,Sí,2,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Puntos o programa de fidelización,simulada
+No aplica (simulada),S044,18-24,3,Sí,Sí,Sí,1,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S045,18-24,2,Sí,No,No,0,4 = Importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S046,55 años o más,1,Sí,Sí,Sí,1,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S047,18-24,5,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S048,55 años o más,7,Sí,Sí,No,0,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Cupón,simulada
+No aplica (simulada),S049,35-44,7,Sí,No,Sí,7,4 = Importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Puntos o programa de fidelización,simulada
+No aplica (simulada),S050,45-54,4,Sí,Sí,Sí,2,4 = Importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S051,45-54,2,Sí,Sí,No,0,5 = Muy importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S052,35-44,4,Sí,Sí,Sí,2,1 = Nada importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S053,25-34,7,Sí,Sí,Sí,1,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,2x1,simulada
+No aplica (simulada),S054,35-44,2,Sí,No,Sí,2,2 = Poco importantes,1 = Muy insatisfecho/a,No,2x1,simulada
+No aplica (simulada),S055,35-44,2,Sí,Sí,No,0,4 = Importantes,4 = Satisfecho/a,Sí,Cupón,simulada
+No aplica (simulada),S056,25-34,6,Sí,No,Sí,3,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S057,18-24,7,Sí,Sí,No,0,1 = Nada importantes,4 = Satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S058,35-44,5,Sí,Sí,Sí,1,4 = Importantes,2 = Insatisfecho/a,No,2x1,simulada
+No aplica (simulada),S059,25-34,3,No,No,No,0,4 = Importantes,4 = Satisfecho/a,No,Descuento directo,simulada
+No aplica (simulada),S060,45-54,4,Sí,Sí,Sí,2,5 = Muy importantes,4 = Satisfecho/a,No,Puntos o programa de fidelización,simulada
+No aplica (simulada),S061,25-34,2,Sí,Sí,No,0,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S062,35-44,1,Sí,Sí,Sí,1,5 = Muy importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S063,35-44,6,Sí,Sí,No,0,5 = Muy importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S064,25-34,6,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,Cupón,simulada
+No aplica (simulada),S065,25-34,5,Sí,Sí,Sí,5,2 = Poco importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S066,45-54,2,Sí,Sí,Sí,2,3 = Moderadamente importantes,2 = Insatisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S067,25-34,6,Sí,Sí,Sí,1,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S068,45-54,1,Sí,Sí,Sí,1,5 = Muy importantes,4 = Satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S069,45-54,3,Sí,Sí,Sí,2,5 = Muy importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S070,18-24,6,Sí,Sí,Sí,1,5 = Muy importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S071,45-54,6,No,No,Sí,6,3 = Moderadamente importantes,1 = Muy insatisfecho/a,No,2x1,simulada
+No aplica (simulada),S072,35-44,5,No,No,No,0,4 = Importantes,4 = Satisfecho/a,Sí,Puntos o programa de fidelización,simulada
+No aplica (simulada),S073,18-24,5,Sí,Sí,Sí,5,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,2x1,simulada
+No aplica (simulada),S074,45-54,3,Sí,Sí,Sí,3,4 = Importantes,5 = Muy satisfecho/a,Sí,Cupón,simulada
+No aplica (simulada),S075,35-44,5,Sí,Sí,Sí,3,3 = Moderadamente importantes,5 = Muy satisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S076,35-44,4,No,No,Sí,2,5 = Muy importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S077,35-44,3,Sí,Sí,No,0,5 = Muy importantes,4 = Satisfecho/a,Sí,2x1,simulada
+No aplica (simulada),S078,35-44,2,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,Sí,Puntos o programa de fidelización,simulada
+No aplica (simulada),S079,35-44,5,Sí,Sí,Sí,4,5 = Muy importantes,3 = Ni satisfecho/a ni insatisfecho/a,Sí,Descuento directo,simulada
+No aplica (simulada),S080,25-34,3,Sí,No,Sí,2,5 = Muy importantes,4 = Satisfecho/a,Sí,Cupón,simulada
+No aplica (simulada),S081,25-34,2,Sí,Sí,Sí,1,4 = Importantes,4 = Satisfecho/a,No,Descuento directo,simulada
+No aplica (simulada),S082,25-34,5,No,No,Sí,1,5 = Muy importantes,4 = Satisfecho/a,Sí,Cupón,simulada
+No aplica (simulada),S083,18-24,2,Sí,No,Sí,1,4 = Importantes,4 = Satisfecho/a,No,2x1,simulada
+No aplica (simulada),S084,18-24,4,No,No,Sí,1,3 = Moderadamente importantes,3 = Ni satisfecho/a ni insatisfecho/a,No,2x1,simulada
+No aplica (simulada),S085,25-34,3,Sí,Sí,No,0,5 = Muy importantes,5 = Muy satisfecho/a,Sí,2x1,simulada
